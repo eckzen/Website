@@ -1,0 +1,44 @@
+/*All inside here are style used in the Home page main content*/
+#intro{
+	margin: 20px 0;	
+	line-height: 2;
+	color: #333;
+}
+.banner{
+	margin: 0 0 20px 22px;
+}
+#collection{
+	list-style-type: none;
+}
+#collection li{
+	position: relative;
+	margin: 0 0 20px 0;
+	/*testing*/
+	height: 200px
+}
+#collection li h3{
+	background: #6a7988;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 4px;
+	/*kick the text to the right by 220px*/
+	text-indent: 220px;
+}
+#collection li p{
+	padding: 0 0 0 220px;
+	color: #666;
+	line-height: 1.5;
+	margin: 12px 0;
+	height: 100px;
+}
+#collection li img{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+}
+#collection li .button{
+	position: absolute;
+	top: 175px;
+	left : 30px;
+}
